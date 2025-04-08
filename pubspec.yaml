@@ -1,0 +1,75 @@
+# Nome do seu pacote/aplicativo Flutter
+name: controle_pontos_app
+
+# Uma breve descrição do seu projeto
+description: "Aplicativo para controle de pontos de funcionários."
+
+# Impede que este pacote seja publicado acidentalmente no pub.dev (recomendado para apps privados)
+publish_to: 'none'
+
+# Versão do aplicativo (formato: major.minor.patch+buildNumber)
+version: 1.0.0+1
+
+# Define a versão mínima e compatível do SDK do Dart/Flutter
+environment:
+  sdk: '>=3.4.1 <4.0.0' # Verifique sua versão com 'flutter --version' e ajuste se necessário
+
+dependencies:
+  flutter:
+    sdk: flutter # Declaração do Flutter termina aqui
+
+  # flutter_localizations é uma dependência separada, no mesmo nível
+  flutter_localizations:
+    sdk: flutter
+
+  # ---- Dependências do Firebase ----
+  # Essencial para inicializar e conectar com o Firebase
+  firebase_core: ^2.32.0
+  # Para gerenciar autenticação de usuários (Login, Logout)
+  firebase_auth: ^4.20.0
+  # Para usar o banco de dados NoSQL Cloud Firestore
+  cloud_firestore: ^4.17.5
+  # Para fazer upload e download de arquivos (ex: anexos)
+  firebase_storage: ^11.7.7
+  # ---- Fim das Dependências do Firebase ----
+  cloud_functions: ^4.7.6
+  intl: ^0.19.0
+  image_picker: ^1.1.1
+  video_player: ^2.8.6 # Use a versão mais recente
+  chewie: ^1.7.5      # Use a versão mais recente
+  # Pacote de ícones no estilo iOS (geralmente incluído por padrão)
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.4
+  flutter_image_compress: ^2.3.0
+  video_compress: ^3.1.2
+  url_launcher: ^6.1.0
+
+# Dependências usadas apenas durante o DESENVOLVIMENTO
+dev_dependencies:
+  # Ferramentas para escrever testes unitários e de widget
+  flutter_test:
+    sdk: flutter
+
+  # Pacote com regras recomendadas para análise e qualidade do código (lints)
+  flutter_lints: ^4.0.0 # Ajuste a versão se necessário
+
+# Configurações específicas do framework Flutter
+flutter:
+
+  # Habilita o uso dos ícones e componentes visuais do Material Design
+  uses-material-design: true
+
+  # --- Seção de Assets (Exemplo Comentado) ---
+  # Descomente e adicione seus arquivos de imagem, etc., aqui
+  # assets:
+  #   - assets/images/logo.png
+  #   - assets/data/config.json
+
+  # --- Seção de Fontes (Exemplo Comentado) ---
+  # Descomente e adicione fontes personalizadas aqui
+  # fonts:
+  #   - family: MinhaFonteCustom
+  #     fonts:
+  #       - asset: assets/fonts/MinhaFonteCustom-Regular.ttf
+  #       - asset: assets/fonts/MinhaFonteCustom-Bold.ttf
+  #         weight: 700

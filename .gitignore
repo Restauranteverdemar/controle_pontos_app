@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/Flutter/flutter_assets/
+/android/app/build/
+/android/.gradle/
+/android/gradle/wrapper/gradle-wrapper.jar
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+*.iml
+*.metadata
+linux/flutter/generated_plugin_registrant.*
+macos/Flutter/GeneratedPluginRegistrant.*
+windows/flutter/generated_plugin_registrant.*
+web/flutter/generated_plugin_registrant.*
+web/flutter_bootstrap.js
+web/main.dart.js*
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Firebase specific (IMPORTANT - Double check if you have sensitive files)
+# Usually, google-services.json and GoogleService-Info.plist ARE versioned,
+# but if you have other sensitive config files, add them here.
+# Example:
+# secrets.json
+# .env
+
+# Generated Json Serializable files (if applicable)
+*.g.dart
+*.freezed.dart
+
+# Build files
+appbundle*.aab

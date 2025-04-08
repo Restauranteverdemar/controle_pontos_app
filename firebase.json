@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "app-do-verdemar-2a0a8",
+          "appId": "1:981095620510:android:b5510c583f147262a7c08f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "app-do-verdemar-2a0a8",
+          "configurations": {
+            "android": "1:981095620510:android:b5510c583f147262a7c08f",
+            "ios": "1:981095620510:ios:11ecc2e61821879ba7c08f",
+            "macos": "1:981095620510:ios:11ecc2e61821879ba7c08f",
+            "web": "1:981095620510:web:c3ffda8bf831e251a7c08f",
+            "windows": "1:981095620510:web:d2f765d62086a1dca7c08f"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
